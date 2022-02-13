@@ -1,6 +1,11 @@
 @import url("https://neodev-uii.netlify.app/doc/docstyle.css");
 @import url(./css/home.css);
 @import url(./css/footer.css);
+@import url(./css/cart.css);
+
+body{
+  margin: 1rem 10rem;
+}
 
 .navigation_main_container {
   border: none;
