@@ -2,6 +2,7 @@
 @import url(./css/home.css);
 @import url(./css/footer.css);
 @import url(./css/cart.css);
+@import url(./css/wishlist.css);
 
 body{
   margin: 1rem 10rem;
@@ -49,6 +50,10 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+
+  body{
+    margin: 0.5rem;
+  }
 
   .homepage_container{
     margin: 0 1rem;

@@ -35,9 +35,9 @@
 }
 
 .category_grid img {
-  height: 40rem;
+  height: 100%;
   object-fit: contain;
-  width: 30rem;
+  width: 100%;
 }
 
 .category {
@@ -94,7 +94,7 @@
 
   .item_desc {
     font-size: 0.8rem;
-    margin-left: 2.4rem;
+    margin-left: 1.4rem;
     text-align: start;
     margin-bottom: 3rem;
   }
