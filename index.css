@@ -6,6 +6,7 @@
 
 body{
   margin: 1rem 10rem;
+  text-align: center;
 }
 
 .navigation_main_container {
@@ -39,6 +40,7 @@ body{
   margin-left: 1rem;
   color: black;
 }
+
 
 .brand_logo {
   display: block;

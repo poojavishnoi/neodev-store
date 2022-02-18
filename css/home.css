@@ -1,6 +1,6 @@
-.home_center_img {
+.home_center_img .img_responsive {
   position: relative;
-  text-align: center;
+  width: 80%;
 }
 
 .primary_solid_btn {
@@ -11,7 +11,7 @@
 
 .content {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 37%;
   transform: translate(-50%, -50%);
   font-size: 1.3rem;
@@ -31,6 +31,7 @@
 
 .category_grid {
   display: grid;
+  gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
@@ -53,6 +54,7 @@
 }
 
 .arrival_grid {
+  gap: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -110,16 +112,17 @@
   }
 
   .category_grid img {
-    height: 20rem;
-    width: 10rem;
+    height: 80%;
+    width: 80%;
   }
 
   .category_grid{
     grid-template-columns: repeat(auto-fit);
+    gap: 0.5rem;
   }
 
   .content {
-    top: 30%;
+    top: 25%;
     left: 37%;
     font-size: 0.5rem;
   }
@@ -127,5 +130,6 @@
   .home_center_img .primary_solid_btn {
     font-size: 0.6rem;
     padding: 0.5rem;
+    margin-top: 1rem;
   }
 }
