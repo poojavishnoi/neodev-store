@@ -3,6 +3,7 @@
 @import url(./css/footer.css);
 @import url(./css/cart.css);
 @import url(./css/wishlist.css);
+@import url(./css/productlist.css);
 
 body{
   margin: 1rem 10rem;
