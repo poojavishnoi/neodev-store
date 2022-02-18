@@ -46,6 +46,11 @@ body{
   display: block;
 }
 
+.btn{
+  margin-top: 1rem;
+  width: max-content;
+}
+
 .brand_logo img {
   width: 3rem;
   height: 3rem;
