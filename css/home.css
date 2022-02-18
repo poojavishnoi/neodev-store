@@ -1,5 +1,9 @@
-.home_center_img .img_responsive {
+.home_center_img{
   position: relative;
+
+}
+
+.home_center_img .img_responsive {
   width: 80%;
 }
 
