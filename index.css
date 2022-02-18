@@ -3,10 +3,12 @@
 @import url(./css/footer.css);
 @import url(./css/cart.css);
 @import url(./css/wishlist.css);
+@import url(./css/signup.css);
 
 body{
   margin: 1rem 10rem;
   text-align: center;
+
 }
 
 .navigation_main_container {
@@ -15,6 +17,7 @@ body{
 
 .home_container{
   margin: 1rem 10rem;
+
 }
 
 .brand_title {
@@ -71,6 +74,10 @@ body{
   .brand_title {
     margin-left: 0rem;
     margin-bottom: 1rem;
+  }
+
+  .home_container{
+    margin: 1rem;
   }
 
   .brand_logo {
