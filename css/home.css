@@ -1,7 +1,7 @@
-.home_center_img .img_responsive {
+.home_center_img{
   position: relative;
-  width: 80%;
 }
+
 
 .primary_solid_btn {
   font-size: 1.2rem;
@@ -131,5 +131,12 @@
     font-size: 0.6rem;
     padding: 0.5rem;
     margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .content{
+    font-size: 0.7rem;
   }
 }
