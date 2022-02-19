@@ -3,7 +3,7 @@
 }
 
 .home_center_img .img_responsive {
-  width: 80%;
+  width: 70%;
 }
 
 .primary_solid_btn {
@@ -104,6 +104,10 @@
     margin-bottom: 3rem;
   }
 
+  .home_center_img .img_responsive{
+    width: 100%;
+  }
+
   .overlap {
     left: 50%;
     transform: translate(-50%);
@@ -135,4 +139,19 @@
     padding: 0.5rem;
     margin-top: 1rem;
   }
+
+  .nav_searchbar{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content{
+    font-size: 0.7rem;
+  }
+/* 
+  .nav_searchbar{
+    display: none;
+  } */
+
 }
