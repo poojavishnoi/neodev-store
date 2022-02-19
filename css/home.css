@@ -34,12 +34,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-/* .category_grid img {
-  height: 100%;
-  object-fit: contain;
-  width: 100%;
-} */
-
 .category {
   position: relative;
   transition: 0.1s ease-in-out;
