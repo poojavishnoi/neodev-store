@@ -1,4 +1,4 @@
-.home_center_img{
+.home_center_img {
   position: relative;
 }
 
@@ -38,7 +38,6 @@
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
 
 .category {
   position: relative;
@@ -100,6 +99,10 @@
     margin-bottom: 3rem;
   }
 
+  .home_center_img .img_responsive{
+    width: 100%;
+  }
+  
   .overlap {
     left: 50%;
     transform: translate(-50%);
@@ -131,6 +134,18 @@
     padding: 0.5rem;
     margin-top: 1rem;
   }
+
+  .nav_searchbar{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content{
+    font-size: 0.7rem;
+  }
+
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -138,4 +153,6 @@
   .content{
     font-size: 0.7rem;
   }
+
 }
+
