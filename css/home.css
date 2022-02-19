@@ -6,6 +6,10 @@
   width: 70%;
 }
 
+.img_responsive{
+  width: 70%;
+}
+
 .primary_solid_btn {
   font-size: 1.2rem;
   cursor: pointer;
@@ -144,9 +148,6 @@
   .content{
     font-size: 0.7rem;
   }
-/* 
-  .nav_searchbar{
-    display: none;
-  } */
+
 
 }
