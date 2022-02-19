@@ -48,8 +48,13 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+
+  .signup_heading{
+    font-size: 1rem;
+  }
+
   .signup_container{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 1rem;
   }  
 
@@ -60,6 +65,8 @@ body{
   .form_input{
     width: 15rem;
     padding: 0.5rem;
+    font-size: 0.5rem;
+
   }
 
   .form_label{
@@ -68,5 +75,7 @@ body{
 
   .btn{
     margin-top: 0.5rem;
+    font-size: 0.5rem;
+
   }
 }
