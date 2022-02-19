@@ -34,7 +34,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-
 .category {
   position: relative;
   transition: 0.1s ease-in-out;
@@ -95,6 +94,10 @@
     margin-bottom: 3rem;
   }
 
+  .home_center_img .img_responsive{
+    width: 100%;
+  }
+  
   .overlap {
     left: 50%;
     transform: translate(-50%);
@@ -128,7 +131,6 @@
   }
 }
 
-
 @media only screen and (max-width: 900px) {
 
   .content{
@@ -136,3 +138,4 @@
   }
 
 }
+
