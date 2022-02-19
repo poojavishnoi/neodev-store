@@ -1,6 +1,5 @@
-.home_center_img .img_responsive {
+.home_center_img {
   position: relative;
-  width: 80%;
 }
 
 .primary_solid_btn {
@@ -35,11 +34,11 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.category_grid img {
+/* .category_grid img {
   height: 100%;
   object-fit: contain;
   width: 100%;
-}
+} */
 
 .category {
   position: relative;
@@ -101,6 +100,10 @@
     margin-bottom: 3rem;
   }
 
+  .home_center_img .img_responsive{
+    width: 100%;
+  }
+  
   .overlap {
     left: 50%;
     transform: translate(-50%);
@@ -133,3 +136,12 @@
     margin-top: 1rem;
   }
 }
+
+@media only screen and (max-width: 900px) {
+
+  .content{
+    font-size: 0.7rem;
+  }
+
+}
+
