@@ -95,10 +95,10 @@
 
 }
 
-
 @media only screen and (max-width: 1200px) {
 
   .cart_main_container{
-    flex-direction: column;
+    flex-direction: column
   }
+
 }

@@ -1,13 +1,5 @@
-.home_center_img{
+.home_center_img {
   position: relative;
-}
-
-.home_center_img .img_responsive {
-  width: 70%;
-}
-
-.img_responsive{
-  width: 70%;
 }
 
 .primary_solid_btn {
@@ -41,7 +33,6 @@
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
 
 .category {
   position: relative;
@@ -106,7 +97,7 @@
   .home_center_img .img_responsive{
     width: 100%;
   }
-
+  
   .overlap {
     left: 50%;
     transform: translate(-50%);
@@ -151,3 +142,12 @@
 
 
 }
+
+@media only screen and (max-width: 900px) {
+
+  .content{
+    font-size: 0.7rem;
+  }
+
+}
+
