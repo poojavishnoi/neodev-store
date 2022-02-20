@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>NeoDev Store</title>
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <div class="navigation_main_container">
+    <div class="nav_section">
+      <div class="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="brand_logo">
+        <a href="/">
+          <img src='./images/logo.png' alt="" />
+        </a>
+      </div>
+      <div class="brand_title">
+        <a href="/">NeoDev</a>
+      </div>
+    </div>
+
+    <div class="nav_section">
+      <div class="nav_searchbar">
+        <span>
+          <i class="fa fa-search fa"></i>
+        </span>
+        <input type="text" placeholder="Type to search" />
+      </div>
+      <div class="nav_icons_container">
+        <div class="nav_icon profile_icon">
+          <a href="#" class="nav_icon">
+              <span>
+                <i class=" fas fa-user-circle fa"></i>
+              </span>
+              <span class="nav_icon_name">Profile</span>
+          </a>
+        </div>
+        <div class="nav_icon">
+          <a href="/cart.html" class="nav_icon">
+              <span>
+                <i class="cart_icon fas fa-shopping-cart fa"></i>
+              </span>
+
+              <span class="nav_icon_name">Cart</span>
+          </a>
+        </div>
+        <div class="nav_icon">
+          <a href="/wishlist.html" class="nav_icon">
+              <span>
+                <i class=" wishlist_icon fas fa-heart fa"></i>
+              </span>
+
+              <span class="nav_icon_name">Wishlist</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="signup_container">
+    <h1 class="signup_heading">Login</h1>
+    <div class="form_main_container">
+     
+        <label class="form_label">Email:</label>
+        <input
+          type="email"
+          class="form_input"
+          placeholder="name@example.com"
+          
+        />
+        <label class="form_label form-label-required-field">
+          Enter Password:
+        </label>
+        <input
+          type="email"
+          class="form_input"
+          placeholder="Enter Password"
+        />
+
+      <a href="/">
+        Forgot the password?
+      </a>
+      <div class="inline_form_input">
+      <input class="form_input" type="checkbox"></input>
+      <label class="form-label-required-field form_label">Remember me</label>
+      
+      </div>
+     
+      <button class="btn" type="submit">Login</button>
+      <a href='/signup.html'><button class="btn secondary_solid_btn" type="submit">Create New Account</button></a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

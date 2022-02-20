@@ -4,9 +4,11 @@
 @import url(./css/cart.css);
 @import url(./css/wishlist.css);
 @import url(./css/productlist.css);
+@import url(./css/signup.css);
 
 body{
   text-align: center;
+
 }
 
 .navigation_main_container {
@@ -15,6 +17,7 @@ body{
 
 .homepage_container{
   margin: 1rem 5%;
+
 }
 
 .brand_title {
@@ -73,6 +76,10 @@ body{
     margin-left: 0rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+  }
+
+  .home_container{
+    margin: 1rem;
   }
 
   .brand_logo {
